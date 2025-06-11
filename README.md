@@ -6,13 +6,13 @@ Aqui encontaras todo lo necesario para el codigo de la pagina de HMTL y arduino.
 #include &lt;ThingSpeak.h&gt;
 
 #Se definen las credenciales de red WiFi y el cliente para conectar a ThingSpeak.
-const char* ssid = "TU_SSID";              // ⚠️ Reemplaza con tu SSID real
-const char* password = "TU_PASSWORD";      // ⚠️ Reemplaza con tu contraseña real
+const char* ssid = "TU_SSID";              // Reemplaza con esto tu SSID real
+const char* password = "TU_PASSWORD";      // Reemplaza esto con tu contraseña real
 WiFiClient client;
 
 #Se configuran los datos del canal de ThingSpeak: ID del canal y clave para enviar datos (Write API Key).
-unsigned long channelID = 123456;          // ⚠️ Reemplaza con tu Channel ID real
-const char* writeAPIKey = "TU_API_KEY";    // ⚠️ Reemplaza con tu Write API Key real
+unsigned long channelID = 123456;          // debes reemplazar esto con tu Channel ID real
+const char* writeAPIKey = "TU_API_KEY";    // Debes reemplazar esto con tu Write API Key real
 
 void setup() {
   Serial.begin(115200);
