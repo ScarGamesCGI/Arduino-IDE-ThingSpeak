@@ -1,2 +1,2 @@
 # Arduino-IDE-ThingSpeak
-todo lo necesario para el codigo de la pagina arduino y html
+Aqui encontaras todo lo necesario para el codigo de la pagina de HMTL y arduino.
